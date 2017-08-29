@@ -11,6 +11,10 @@ Username: admin@admin.com
 Password: 1234
 ```
 
+### Heroku
+
+Created Procfile. Used buildpack `heroku buildpacks:set https://github.com/heroku/heroku-buildpack-php`. 
+
 ### Official Documentation
 
 [Click here for the official documentation](http://laravel-boilerplate.com)
