@@ -13,7 +13,7 @@ Password: 1234
 
 ### Heroku
 
-Created Procfile. Used buildpack `heroku buildpacks:set https://github.com/heroku/heroku-buildpack-php`. 
+Created Procfile. Used buildpack `heroku buildpacks:set https://github.com/heroku/heroku-buildpack-php`. Add Cleardb addon `heroku addons:add cleardb`. Show app key `php artisan key:generate --show`. Add config variable for app key `heroku config:set APP_KEY=APP_KEY_GOES_HERE`.
 
 ### Official Documentation
 
